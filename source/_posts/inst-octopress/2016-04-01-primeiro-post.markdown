@@ -7,9 +7,10 @@ categories:
 ---
 <h4>Para instalarmos o Octopress precisaremos de:</h4>
 <ul>
-<li><a href="https://git-scm.com/">Instalar o Git.</a></li>
-<li>Instalar o Ruby 1.9.3 ou superior usando <a href="http://octopress.org/docs/setup/rbenv/">rbven</a> ou <a href="http://octopress.org/docs/setup/rvm/">RMV</a>.</li>
-<li>Instalar um dos <a href="https://github.com/sstephenson/execjs">ExecJS</a> suportados tempos de execução de JavaScript.</li>
+<li><a href="https://git-scm.com/" target="_blank">Instalar o Git.</a></li>
+<li>Instalar o Ruby 1.9.3 ou superior usando <a href="http://octopress.org/docs/setup/rbenv/" target="_blank">rbven</a> ou <a href="http://octopress.org/docs/setup/rvm/" target="_blank">RMV</a>.</li>
+<li><a href="https://jekyllrb.com/">Instalar o Jekyll.</a></li>
+<li>Instalar um dos <a href="https://github.com/sstephenson/execjs" target="_blank">ExecJS</a> suportados tempos de execução de JavaScript.</li>
 </ul>
 <h3>Setup Octopress</h3>
 <table>
