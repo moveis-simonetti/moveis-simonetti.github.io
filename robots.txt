@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://moveis-simonetti.github.io/sitemap.xml 
