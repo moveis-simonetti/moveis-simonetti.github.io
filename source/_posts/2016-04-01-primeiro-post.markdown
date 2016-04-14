@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como instalar o Octopresss"
+title: "Como instalar o octopress"
 date: 2016-04-01 14:47:58 -0300
 comments: true
 categories: 
@@ -17,14 +17,14 @@ categories:
 <tbody>
 <tr>
 <pre>
-<div>git git clone: ​​octopress //github.com/imathis/octopress.git
+<div>git clone git://github.com/moveis-simonetti/moveis-simonetti.github.io octopress
 cd octopress
 </div>
 </pre>
 </tr>
 </tbody>
 </table>
-<h4>Em seguida, instalar as dependências.</h4>
+<h4>Em seguida, instalar as dependências dentro do pasta Octopress.</h4>
 <table>
 <tbody>
 <tr>
@@ -39,6 +39,11 @@ bundle install</div>
 <pre>
 <div>rake install</div>
 </pre>
+<h4>Vizualizando nosso blog localmente:</h4>
+<pre>
+<div>rake generate    # gera todos arquivos staticos do blog
+rake preview     # localhost:4000 </div>
+</pre
 <h3>Proximos passos:</h3>
 <ul>
 <li><a href="http://octopress.org/docs/deploying" target="_blank">Configurar a implantação</a></li>
