@@ -2,7 +2,7 @@
 layout: default
 navbar: Blog
 ---
-
+<div class="container-fluid">
 <div class="row">
     <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
         <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
@@ -41,4 +41,5 @@ navbar: Blog
         {% endif %}
     </aside><br><br><br><br><br><br><br>
     {% endunless %}
+</div>
 </div>
