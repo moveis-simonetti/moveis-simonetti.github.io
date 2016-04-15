@@ -42,54 +42,57 @@
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
     <div id="wrap">
       <header role="banner">
-        <nav class="navbar navbar-inverse" style=" linear-gradient(to top: #CD0000 47%, red 57%)">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <!-- <span class="sr-only">Toggle navigation</span> -->
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/"><img src="/../../logo_ms.png" alt="moveis simonetti"></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse" style="padding-top: 4.2%;">
-            <ul class="nav navbar-nav">
-                <li >
-                    <a href="/blog/archives">Arquivos</a>
-                </li>
-                <li >
-                    <a href="/equipe">Equipe</a>
-                </li>
-                <li >
-                    <a href="/contato">Contato</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
-                        <span class="visible-xs">RSS</span>
-                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
-                    </a>
-                </li>
+        <div class="container-fluid">
+    <nav class="navbar navbar-inverse" style=" linear-gradient(to top: #CD0000 47%, red 57%)">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <!-- <span class="sr-only">Toggle navigation</span> -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="/../../logo_ms.png" alt="moveis simonetti"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" style="padding-top: 4.2%;">
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="/blog/archives">Arquivos</a>
+                    </li>
+                    <li >
+                        <a href="/equipe">Equipe</a>
+                    </li>
+                    <li >
+                        <a href="/contato">Contato</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                            <span class="visible-xs">RSS</span>
+                            <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                        </a>
+                    </li>
+                    
+                </ul>
                 
-            </ul>
-            
-            <form class="navbar-form navbar-right" action="https://www.google.com/search" method="get">
-                <input type="hidden" name="sitesearch" value="moveis-simonetti.github.io">
-                <div class="form-group">
-                    <input class="form-control" type="text" name="q" placeholder="Search">
-                </div>
-            </form>
-            
+                <form class="navbar-form navbar-right" action="https://www.google.com/search" method="get">
+                    <input type="hidden" name="sitesearch" value="moveis-simonetti.github.io">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+                
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
 
       </header>
       <div id="main" role="main" class="container">
         <div id="content">
-          <div class="row">
+          <div class="container-fluid">
+<div class="row">
     <div class="page-content col-md-9">
         <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
             <meta itemprop="name" content="My Octopress Blog"/>
@@ -167,51 +170,51 @@
 
 
 <ul>
-<li><a href="https://git-scm.com/" target="_blank">Instalar o Git.</a></li>
-<li>Instalar o Ruby 1.9.3 ou superior usando <a href="http://octopress.org/docs/setup/rbenv/" target="_blank">rbven</a> ou <a href="http://octopress.org/docs/setup/rvm/" target="_blank">RMV</a>.</li>
-<li><a href="https://jekyllrb.com/">Instalar o Jekyll.</a></li>
-<li>Instalar um dos <a href="https://github.com/sstephenson/execjs" target="_blank">ExecJS</a> suportados tempos de execução de JavaScript.</li>
+    <li><a href="https://git-scm.com/" target="_blank">Instalar o Git.</a></li>
+    <li>Instalar o Ruby 1.9.3 ou superior usando <a href="http://octopress.org/docs/setup/rbenv/" target="_blank">rbven</a> ou <a href="http://octopress.org/docs/setup/rvm/" target="_blank">RMV</a>.</li>
+    <li><a href="https://jekyllrb.com/">Instalar o Jekyll.</a></li>
+    <li>Instalar um dos <a href="https://github.com/sstephenson/execjs" target="_blank">ExecJS</a> suportados tempos de execução de JavaScript.</li>
 </ul>
 
 
-<h3>Setup Octopress</h3>
-
-
-<table>
-<tbody>
-<tr>
-<pre>
-<div>git clone git://github.com/moveis-simonetti/moveis-simonetti.github.io octopress
-cd octopress
-</div>
-</pre>
-</tr>
-</tbody>
-</table>
-
-
-<h4>Em seguida, instalar as dependências dentro do pasta Octopress.</h4>
+<h3>Setup Octopress.</h3>
 
 
 <p><table>
+    <tbody>
+        <tr>
+    <pre><div>git clone git://github.com/moveis-simonetti/moveis-simonetti.github.io octopress</div></pre>
+</tr>
+</tbody></p>
+
+<p><h3>Logo após será necessário entrar na pasta octopress.</h3>
+<table>
+    <tbody>
+        <tr>
+    <pre><div>cd octopress</div></pre>
+    </tr>
+    </tbody>
+</table></p>
+
+<p><h4>Em seguida, instalar as dependências dentro do pasta Octopress.</h4>
+<table>
 <tbody>
 <tr>
-<pre>
-<div>gem install bundler
-rbenv rehash     # Se você usar rbenv, refazer(rehash) para ser capaz de executar o comando pacote
-bundle install</div>
-</pre>
+<pre><div>gem install bundler</div></pre>
+</tr>
+<pre><div>rbenv rehash     # Se você usar rbenv, refazer(rehash) para ser capaz de executar o comando pacote</div></pre>
+</tr>
+<pre><div>bundle install</div></pre>
 </tr>
 </tbody>
 <h4>Instale o tema padrão do Octopress.</h4>
-<pre>
-<div>rake install</div>
-</pre>
+<pre><div>rake install</div></pre>
 <h4>Vizualizando nosso blog localmente:</h4>
-<pre>
-<div>rake generate    # gera todos arquivos staticos do blog
-rake preview     # localhost:4000 </div>
-</pre
+<pre><div>rake generate    # gera todos arquivos staticos do blog</div></pre>
+<pre><div>rake preview </div></pre>
+<h4>Na url digite:</h4>
+<pre><div>localhost:4000</div></pre>
+</pre>
 <h3>Proximos passos:</h3>
 <ul>
 <li><a href="http://octopress.org/docs/deploying" target="_blank">Configurar a implantação</a></li>
@@ -264,7 +267,7 @@ rake preview     # localhost:4000 </div>
     </aside><br><br><br><br><br><br><br>
     
 </div>
-
+</div>
         </div>
       </div>
     </div>
