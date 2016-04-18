@@ -1,7 +1,20 @@
 ---
 layout: post
-title: "testando"
+title: "Instalando o wordpress"
 date: 2016-04-08 13:53:23 -0300
 comments: true
 categories: 
 ---
+<h3>Instalando o Wordpress:</h3>
+<h5><strong>OBS:</strong>Para seu funcionamento é necessario possuir um banco de dados!</h5>
+<ul>
+    <li><a href="https://wordpress.com" target="_blank">Entre no site wordpress.</a></li>
+    <li>Faça o download da arquivo wordpress.</li>
+    <img src="/../images/site_wordpress.png">
+    <li><h4>Logo após o download descompacte(extrair) o arquivo wordpress.</h4></li>
+    <li><h4>Em seguida, configure o arquivo <strong>wp-config.php</strong> em seu IDE .</h4></li>
+    <img src="/../images/config_wordpress.png">
+    <li><h4>Para finalizar execute o arquivo index.php</h4></li>
+    <img src="/../images/index_wordpress.png">
+    <strong>Referencia: </strong> <a href="https://br.wordpress.org/" target="_blank">https://br.wordpress.org/</a>
+</ul>
